@@ -1,0 +1,118 @@
+ /* Ajuste para que el contenido no quede demasiado separado de la barra de navegación */
+.hero-section {
+    padding-top: 100px; /* Reduzcamos un poco el valor para acercar el texto a la navbar */
+    margin-top: 0; /* Aseguramos que no haya margen adicional arriba */
+}
+
+.hero-section h1 {
+    font-size: 2.5rem; /* Mantén el ajuste de tamaño de fuente */
+    margin-top: 0; /* Eliminar cualquier margen superior adicional */
+}
+
+/* Estilo personalizado para imágenes más pequeñas */
+.smaller-image {
+    max-width: 60%; /* Ajusta el porcentaje según el tamaño deseado */
+    height: auto;
+    margin-bottom: 20px; /* Añade espacio entre la imagen y el texto */
+}
+
+.smaller-corazon {
+    max-width: 80%; /* Ajusta el porcentaje según el tamaño deseado */
+    height: auto;
+}
+
+/* Estilo personalizado para texto sobre la imagen de fondo */
+.text-custom {
+    color: #ffffff; /* Blanco como ejemplo, puedes elegir otro color */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Añadir sombra para mejorar la legibilidad */
+}
+
+/* Estilo para enlaces en el pie de página */
+.footer-links {
+    color: #333333; /* Color gris oscuro */
+}
+
+.footer-links a {
+    color: #333333; /* Establece un color gris oscuro para los enlaces */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.footer-links a:hover {
+    color: #555555; /* Cambia a un gris más claro al pasar el mouse */
+    text-decoration: underline; /* Agrega subrayado al hacer hover */
+}
+
+
+/* Mantener estilos consistentes para botones */
+.btn-primary {
+    background-color: #a9c2c5;
+    border-color: #a9c2c5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--gray-dark); /* Botón cambia a gris oscuro al pasar el mouse */
+    border-color: #93d7de;
+}
+
+/* Si la barra de navegación está fija, puedes agregar un margen inferior */
+.navbar {
+    margin-bottom: 20px; /* Ajusta el espacio debajo de la barra de navegación */
+}
+
+/* Estilo de la barra de navegación */
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #333;
+}
+
+/* Estilo de los encabezados */
+h2, h3, h4, h5 {
+    color: #333;
+    font-weight: 700;
+}
+
+/* Espaciado en secciones */
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-light {
+    background-color: #f8f9fa;
+}
+
+/* Estilo de las revisiones */
+.review .quote {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.review .img-review {
+    width: 60px;
+    height: 60px;
+}
+
+/* Color de fondo de botones */
+.btn-primary {
+    background-color: #a9c2c5;
+    border-color: #a9c2c5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--gray-dark); /* Botón cambia a gris oscuro al pasar el mouse */
+    border-color: #93d7de;
+}
+
+#home {
+    padding-top: 100px; /* Ajusta este valor según la altura de tu barra de navegación */
+    text-align: center; /* Centra el contenido */
+}
+
+.card-body p {
+    color: #333333; /* Color gris oscuro, igual al que usaste para los enlaces */
+}
